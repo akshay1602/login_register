@@ -17,7 +17,7 @@ public class insert extends HttpServlet {
             throws ServletException, IOException {
 
 
-        String s1 = request.getParameter("name");
+        String s1 = request.getParameter("Name");
         String s2 = request.getParameter("Username");
         String s3 = request.getParameter("Password");
         String s4 = request.getParameter("Confirm_Password");
