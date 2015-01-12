@@ -28,6 +28,7 @@ public class insert extends HttpServlet {
         if(res == "Blank_Field"){
             RequestDispatcher rd=request.getRequestDispatcher("/Blank_Field.html");
             rd.forward(request,response);
+            return;
 
         }else if (res == "Passwords_Do_Not_Match"){
 
